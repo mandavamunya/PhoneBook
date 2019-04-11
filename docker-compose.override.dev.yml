@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  webspa:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_HTTPS_PORT=44300
+      - ASPNETCORE_Kestrel__Certificates__Default__Password="crypticpassword"
+    ports:
+      - "64630:80"
+      - "44300:443"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets/:/root/.microsoft/usersecrets
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https/

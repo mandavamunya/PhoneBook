@@ -3,3 +3,9 @@
 ################################################################################
 
 /bin/Debug
+/test/FunctionalTests/bin/Debug/netcoreapp2.2/Core.dll
+/obj
+/test/FunctionalTests/bin/Debug/netcoreapp2.2
+/test/FunctionalTests/obj
+/.vs/App/v15
+/.vscode/ipch/7d2e75ab36103770
