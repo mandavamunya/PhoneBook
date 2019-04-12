@@ -6248,11 +6248,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\manda\\source\\repos\\PhoneBook\\test\\UnitTests\\UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\manda\\Desktop\\PhoneBook\\test\\UnitTests\\UnitTests.csproj",
       "projectName": "UnitTests",
-      "projectPath": "C:\\Users\\manda\\source\\repos\\PhoneBook\\test\\UnitTests\\UnitTests.csproj",
+      "projectPath": "C:\\Users\\manda\\Desktop\\PhoneBook\\test\\UnitTests\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\manda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\manda\\source\\repos\\PhoneBook\\test\\UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\manda\\Desktop\\PhoneBook\\test\\UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6271,8 +6271,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\manda\\source\\repos\\PhoneBook\\src\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\manda\\source\\repos\\PhoneBook\\src\\Core\\Core.csproj"
+            "C:\\Users\\manda\\Desktop\\PhoneBook\\src\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\manda\\Desktop\\PhoneBook\\src\\Core\\Core.csproj"
             }
           }
         }

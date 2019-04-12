@@ -1211,11 +1211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\manda\\source\\repos\\PhoneBook\\src\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\manda\\Desktop\\PhoneBook\\src\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\manda\\source\\repos\\PhoneBook\\src\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\manda\\Desktop\\PhoneBook\\src\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\manda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\manda\\source\\repos\\PhoneBook\\src\\Core\\obj\\",
+      "outputPath": "C:\\Users\\manda\\Desktop\\PhoneBook\\src\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -15253,11 +15253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\manda\\source\\repos\\PhoneBook\\test\\IntegrationTests\\IntegrationTests.csproj",
+      "projectUniqueName": "C:\\Users\\manda\\Desktop\\PhoneBook\\test\\IntegrationTests\\IntegrationTests.csproj",
       "projectName": "IntegrationTests",
-      "projectPath": "C:\\Users\\manda\\source\\repos\\PhoneBook\\test\\IntegrationTests\\IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\manda\\Desktop\\PhoneBook\\test\\IntegrationTests\\IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\manda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\manda\\source\\repos\\PhoneBook\\test\\IntegrationTests\\obj\\",
+      "outputPath": "C:\\Users\\manda\\Desktop\\PhoneBook\\test\\IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -15276,8 +15276,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\manda\\source\\repos\\PhoneBook\\src\\UI\\Web\\Web.csproj": {
-              "projectPath": "C:\\Users\\manda\\source\\repos\\PhoneBook\\src\\UI\\Web\\Web.csproj"
+            "C:\\Users\\manda\\Desktop\\PhoneBook\\src\\UI\\Web\\Web.csproj": {
+              "projectPath": "C:\\Users\\manda\\Desktop\\PhoneBook\\src\\UI\\Web\\Web.csproj"
             }
           }
         }
