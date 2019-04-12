@@ -1,0 +1,22 @@
+<mat-toolbar color="primary" style="flex: 1; flex-direction: row">
+    <button mat-button routerLink="/" style="flex-direction:column">PhoneBooks</button>
+    <!--<button mat-button routerLink="/addentry" style="flex-direction:column">New Entry</button>-->
+    <mat-form-field style="flex-direction:column; background-color: #3c4caa; height: 95%; border-radius: 5; padding: 10">
+        <input [(ngModel)]="searchValue.text" matInput="" style="padding: 10; height: 100%; width: 100%;" />
+    </mat-form-field>
+    <mat-card-actions style="flex-direction:column">
+        <button (click)="search()" mat-button color="white"><mat-icon>search</mat-icon></button>
+
+    </mat-card-actions>   
+</mat-toolbar>  
+<addentry></addentry>
+
+    <div *ngFor="let entry of this.entryService.entries" >
+        <mat-card class="card" style="flex: 1; flex-direction: row">
+            <mat-card-title [routerLink]="['/entry', entry.id]" style="flex-direction:column; cursor: pointer; background-color: #96a2e9">{{entry.name}}</mat-card-title>
+            <mat-card-content style="flex-direction:column"><a href="tel:{{entry.phoneNumber}}">{{entry.phoneNumber}}</a></mat-card-content>
+            <button (click)="remove(entry)" mat-button style="flex-direction:column; color: #3c4caa"><mat-icon>clear</mat-icon></button>
+            <button [routerLink]="['/edit-entry', entry.id]" mat-button style="flex-direction:column; color: #3c4caa"><mat-icon>edit</mat-icon></button>
+        </mat-card>
+    </div>
+

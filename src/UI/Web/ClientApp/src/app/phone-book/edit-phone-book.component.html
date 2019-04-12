@@ -1,0 +1,10 @@
+<mat-card class="card">
+    <mat-card-content>
+        <mat-form-field>
+            <input [(ngModel)]="phoneBookService.selectedPhoneBook.name" matInput=""  placeholder="Name"/>
+        </mat-form-field>          
+        <mat-card-actions>
+            <button (click)="put()" mat-button color="primary">Update PhoneBook</button>
+        </mat-card-actions>
+    </mat-card-content>
+</mat-card>

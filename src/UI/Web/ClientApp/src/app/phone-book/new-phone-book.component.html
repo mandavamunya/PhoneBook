@@ -1,0 +1,10 @@
+<mat-card class="card">
+    <mat-card-content>
+        <mat-form-field>
+            <input [(ngModel)]="phoneBook.name" matInput=""  placeholder="Name"/>
+        </mat-form-field>          
+        <mat-card-actions>
+            <button (click)="post()" mat-button color="primary">Add PhoneBook</button>
+        </mat-card-actions>
+    </mat-card-content>
+</mat-card>

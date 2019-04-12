@@ -1,0 +1,17 @@
+<mat-card class="card">
+    <mat-card-content *ngIf="entryService.selectedEntry">
+        <mat-form-field>
+            <input [(ngModel)]="entryService.selectedEntry.name" matInput="" placeholder="Name" />
+        </mat-form-field>
+        <mat-form-field>
+            <input [(ngModel)]="entryService.selectedEntry.phoneNumber" matInput="" placeholder="Phone Number" />
+        </mat-form-field>            
+        <mat-card-actions>
+            <button (click)="put()" mat-button color="primary">Update Entry</button>
+        </mat-card-actions>
+    </mat-card-content>
+    <mat-card-content *ngIf="!entryService.selectedEntry">
+        <div>Error getting entry</div>
+    </mat-card-content>
+
+</mat-card>

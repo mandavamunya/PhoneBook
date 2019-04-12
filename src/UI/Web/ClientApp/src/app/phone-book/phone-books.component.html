@@ -1,0 +1,23 @@
+<mat-toolbar color="primary" style="flex: 1; flex-direction: row">
+    <button mat-button routerLink="/phonebooks" style="flex-direction:column">PhoneBooks</button>
+    <!--<button mat-button routerLink="/addphonebook" style="flex-direction:column">New PhoneBook</button>-->
+    <mat-form-field style="flex-direction:column; background-color: #3c4caa; height: 95%; border-radius: 5; padding: 10">
+        <input [(ngModel)]="searchValue.text" matInput="" style="padding: 10; height: 100%; width: 100%;" />
+    </mat-form-field>
+    <mat-card-actions style="flex-direction:column">
+        <button (click)="search()" mat-button color="white"><mat-icon>search</mat-icon></button>
+
+    </mat-card-actions>   
+</mat-toolbar>    
+
+<addphonebook></addphonebook>
+
+<div *ngFor="let phoneBook of phoneBookService.phoneBooks">
+    <mat-card class="card" style="flex: 1; flex-direction: row; padding: 20; margin: 20">
+        <mat-card-title [routerLink]="['/phonebook', phoneBook.id]" style="flex-direction:column; background-color: #96a2e9; cursor: pointer">{{phoneBook.name}}</mat-card-title>
+        <mat-card-content>
+            <button (click)="remove(phoneBook)" mat-button style="flex-direction:column; color: #21349c"><mat-icon>clear</mat-icon></button>
+            <button [routerLink]="['/edit-phonebook', phoneBook.id]" mat-button style="flex-direction:column; color: #3c4caa"><mat-icon>edit</mat-icon></button>
+        </mat-card-content>
+    </mat-card>
+</div>
