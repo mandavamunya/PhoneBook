@@ -20,7 +20,7 @@ services:
       environment:
           - ACCEPT_EULA=Y
           - MSSQL_PID=Express
-          - SA_PASSWORD=Password123
+          - SA_PASSWORD=Password@!123
       expose:
           - "1433"     
   app:

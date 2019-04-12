@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Ardalis.GuardClauses;
 using Core.Entities;
 using Core.Interfaces;
+using Core.Specifications;
 
 namespace Core.Services
 {
@@ -33,6 +34,12 @@ namespace Core.Services
         public async Task DeleteRangeEntryAsync(List<Entry> entries)
         {
             await _entryRepository.DeleteRangeAsync(entries);
+        }
+
+        public async Task<IEnumerable<Entry>> GetAllEntryItems(int entryId)
+        {
+            var spec = new EntryByIdSpecification(entryId);
+            return await _entryRepository.ListAsync(spec);
         }
 
         public async Task<Entry> GetEntryById(int entryId)

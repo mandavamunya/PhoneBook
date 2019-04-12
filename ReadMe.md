@@ -1,5 +1,4 @@
-See document Documentation.docx on how to run the application in docker or visual studio 2017 or greater. The application is ready for production. 
-It has already been configure to run on docker. Follow the instructions provided in the document: Documentation.docx. 
+See document Documentation.docx on how to run the application in docker or visual studio 2017 or greater. It has already been configure to run on locally. Follow the instructions provided in the document: Documentation.docx. 
 
 Ignore the following extras:
 

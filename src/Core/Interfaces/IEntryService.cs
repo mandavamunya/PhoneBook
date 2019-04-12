@@ -7,6 +7,7 @@ namespace Core.Interfaces
     public interface IEntryService
     {
         Task<Entry> GetEntryById(int entryId);
+        Task<IEnumerable<Entry>> GetAllEntryItems(int entryId);
         Task <Entry> AddEntryAsync(Entry entry);
         Task <int> SetEntryAsync(Entry entry);
         Task <int> DeleteEntryAsync(Entry entry);

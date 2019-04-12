@@ -15,3 +15,9 @@ C:\Users\manda\source\repos\2019\Absa\test\UnitTests\bin\Debug\netcoreapp2.2\Cor
 C:\Users\manda\source\repos\2019\Absa\test\UnitTests\obj\Debug\netcoreapp2.2\UnitTests.csproj.CopyComplete
 C:\Users\manda\source\repos\2019\Absa\test\UnitTests\obj\Debug\netcoreapp2.2\UnitTests.dll
 C:\Users\manda\source\repos\2019\Absa\test\UnitTests\obj\Debug\netcoreapp2.2\UnitTests.pdb
+C:\Users\manda\source\repos\PhoneBook\test\UnitTests\obj\Debug\netcoreapp2.2\UnitTests.csprojAssemblyReference.cache
+C:\Users\manda\source\repos\PhoneBook\test\UnitTests\obj\Debug\netcoreapp2.2\UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\manda\source\repos\PhoneBook\test\UnitTests\obj\Debug\netcoreapp2.2\UnitTests.AssemblyInfoInputs.cache
+C:\Users\manda\source\repos\PhoneBook\test\UnitTests\obj\Debug\netcoreapp2.2\UnitTests.AssemblyInfo.cs
+C:\Users\manda\source\repos\PhoneBook\test\UnitTests\obj\Debug\netcoreapp2.2\UnitTests.dll
+C:\Users\manda\source\repos\PhoneBook\test\UnitTests\obj\Debug\netcoreapp2.2\UnitTests.pdb

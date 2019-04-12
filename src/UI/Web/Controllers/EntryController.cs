@@ -29,7 +29,7 @@ namespace Web.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetEntryById([FromRoute]int id)
         {
-            var entry = await _entryService.GetEntryById(id);
+            var entry = await _entryService.GetAllEntryItems(id);
             if (entry == null)
             {
                 return NotFound();
